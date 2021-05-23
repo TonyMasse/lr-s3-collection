@@ -14,7 +14,7 @@ sudo dnf -y module install nodejs:14
 sudo mkdir --parent /usr/local/lr-aws-s3/crontab.scripts
 sudo mkdir --parent /usr/local/lr-aws-s3/js
 cd /usr/local/lr-aws-s3/
-# wget https:// xxxxxxx /lr-aws-s3.tar.gz
+wget https://github.com/TonyMasse/lr-s3-collection/releases/download/v3/lr-aws-s3.tar.gz
 tar xvfz lr-aws-s3.tar.gz
 sudo chmod +x /usr/local/lr-aws-s3/crontab.scripts/*.sh
 ```
